@@ -10,8 +10,8 @@ Use https://mailcatcher.me/ for local SMTP testing.
 Download and configure with:
 
 ```
-go get github.com/elimisteve/effectivemail
-cd $(go env GOPATH)/src/github.com/elimisteve/effectivemail
+go get github.com/EffectiveAF/effectivemail
+cd $(go env GOPATH)/src/github.com/EffectiveAF/effectivemail
 cp .env-sample .env
 # !!! Customize .env !!!
 ```
@@ -19,7 +19,7 @@ cp .env-sample .env
 Postgres setup:
 
 ```
-go get github.com/elimisteve/effectivemail
+go get github.com/EffectiveAF/effectivemail
 cd db
 sudo -u postgres bash init_sql.sh
 cd ..
